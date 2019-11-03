@@ -1,6 +1,6 @@
 {
 	"type": "material",
-	"name": "Iron",
+	"name": "iron",
 	"description": "A common building material material.",
 	"hardness": 2,
 	"cost": 1.0,

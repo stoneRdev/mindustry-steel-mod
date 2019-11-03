@@ -12,6 +12,6 @@
 		"length": 0.5,
 		"reload": 0.3,
 		"alternate": true,
-		"bullet": "ArtilleryBullet"
+		"bullet": "artilleryBullet"
 	}
 }
