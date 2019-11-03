@@ -6,7 +6,7 @@
 	"size": 2,
 	"reload": 0.5,
 	"range": 250,
-	"ammoUseEffect": "shellEjectLarge",
+	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0.5,
 	"rotatespeed": 80,
 	"ammo": {
@@ -15,7 +15,7 @@
 			"damage": 50,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
-			"shootEffect": "shootLarge",
+			"shootEffect": "shootBig",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 5
 		},
