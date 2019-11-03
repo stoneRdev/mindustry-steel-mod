@@ -3,7 +3,7 @@
 	"description": "Produces gunship units",
 	"type": "UnitFactory",
 	"unitType": "gunship",
-	"size": 4,
+	"size": 2,
 	"produceTime": 400,
 	"consumes": {
 		"power": 1.0,
@@ -11,9 +11,7 @@
 			"items": [
 				{"item": "silicon", "amount": 50},
 				{"item": "steel", "amount": 250},
-				{"item": "titanium", "amount": 75},
-				{"item": "copper", "amount": 25},
-				{"item": "metaglass", "amount": 25}
+				{"item": "titanium", "amount": 75}
 			]
 		}
 	},
