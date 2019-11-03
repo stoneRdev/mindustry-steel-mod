@@ -11,6 +11,7 @@
 		"name": "bg3-token",
 		"length": 0.5,
 		"reload": 0.3,
-		"alternate": true
+		"alternate": true,
+		"bullet": "standard"
 	}
 }
