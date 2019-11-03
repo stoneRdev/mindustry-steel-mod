@@ -13,6 +13,7 @@
 		"name": "bg3-token",
 		"length": 2.0,
 		"reload": 10,
-		"alternate": false
+		"alternate": false,
+		"bullet": "artillery"
 	}
 }
