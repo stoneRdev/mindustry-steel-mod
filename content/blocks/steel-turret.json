@@ -1,0 +1,38 @@
+{
+	"type": "DoubleTurret",
+	"name": "Steel Turret",
+	"description": "Steel machine gun",
+	"health": 2000,
+	"size": 2,
+	"reload": 0.5,
+	"range": 250,
+	"ammoUseEffect": "shellEjectLarge",
+	"inaccuracy": 0.5,
+	"rotatespeed": 80,
+	"ammo": {
+		"iron": {
+			"speed": 8.0,
+			"damage": 50,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootLarge",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 5
+		},
+		"steel": {
+			"speed": 12.0,
+			"damage": 100,
+			"bulletWidth": 5,
+			"bulletHeight": 7,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 12
+		}
+	},
+	"requirements": [
+		{ "item": "steel", "amount": 70 },
+		{ "item": "copper", "amount": 30 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

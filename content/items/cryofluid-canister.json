@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Cryofluid Canister",
+	"description": "A canister of cryofluid",
+	"cost": 2.5,
+	"color": "ff9999"
+}

@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "Steel conveyor",
+	"description": "Steel conveyor belt that uses compressed air to further speed item transfer",
+	"requirements": [
+		{"item": "steel", "amount": 4},
+		{"item": "copper", "amount": 2},
+		{"item": "compressed-air", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.5,
+	"research": "titanium-conveyor"
+}

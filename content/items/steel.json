@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Steel",
+	"description": "An alloy of iron and carbon.",
+	"cost": 2.0,
+	"color": "fffeec"
+}

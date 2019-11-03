@@ -1,0 +1,27 @@
+{
+	"shootSound": "swings",
+	"ammo": {
+		"copper": "standardCopper",
+		"graphite": "standardDense",
+		"iron": {
+			"speed": 1.0,
+			"damage": 15,
+			"bulletWidth": 5,
+			"bulletHeight": 7,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 5
+		},
+		"steel": {
+			"speed": 5.0,
+			"damage": 20,
+			"bulletWidth": 5,
+			"bulletHeight": 7,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 12
+		},
+		"pyratite": "standardIncendiary",
+		"silicon": "standardHoming"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Iron Crags",
+	"description": "Cragged mountainside. Begin research on iron, and it's usefulness",
+	"loadout": "largeFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 200},
+    	{"item": "lead", "amount": 300}
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 10,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "groundZero", 
+    		"wave": 80
+    	}
+    ],
+    "resources": ["copper", "iron", "lead", "coal", "sand","water","oil","titanium","thorium"]
+}

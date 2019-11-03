@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Slag Canister",
+	"description": "A canister of slag",
+	"cost": 2.5,
+	"color": "ff9999"
+}

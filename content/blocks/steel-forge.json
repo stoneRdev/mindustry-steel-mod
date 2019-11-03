@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Steel Forge",
+	"description": "Combines molten iron and carbon to produce steel",
+	"liquidCapacity": 100,
+	"outputItem": {"item": "steel", "amount": 2},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 2 },
+				{ "item": "graphite", "amount": 1 },
+			],
+			"optional": true
+		},
+		"liquid": {
+			"liquid": "molten-iron",
+			"amount": 1.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+		{ "item": "copper", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "iron-crucible",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

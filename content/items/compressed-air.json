@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Compressed Air",
+	"description": "A canister of compressed air",
+	"cost": 4.0,
+	"color": "737373"
+}

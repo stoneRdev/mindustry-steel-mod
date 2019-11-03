@@ -1,0 +1,24 @@
+{
+	"name": "Steel Drill",
+	"description": "A steel drill that uses air canister explosions to blast ore faster",
+	"type": "Drill",
+	"size": 3,
+	"tier": 2,
+	"drillTime": 100,
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "compressed-air", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "steel", "amount": 100 },
+		{ "item": "iron", "amount": 50 },
+		{ "item": "graphite", "amount": 20 },
+		{ "item": "copper", "amount": 50 },
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "Iron Crucible",
+	"description": "Melts down iron",
+	"liquidCapacity": 100,
+	"outputLiquid": {"liquid": "molten-iron", "amount": 7.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 5,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"item": "iron"
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 75 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

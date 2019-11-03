@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Water Canister",
+	"description": "A canister of water",
+	"cost": 2.5,
+	"color": "4d4d4d"
+}

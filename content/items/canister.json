@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Empty Canister",
+	"description": "An empty canister",
+	"cost": 1.5,
+	"color": "737373"
+}

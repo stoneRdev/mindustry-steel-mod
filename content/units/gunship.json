@@ -1,0 +1,16 @@
+{
+	"type": "flyingUnit",
+	"name": "gunship",
+	"description": "Powerful support gunship, sporting a miniature BG3-token gatling cannon",
+	"speed": 1.0,
+	"flying": true,
+	"health": 500,
+	"engineOffset": 5.5,
+	"range": 100,
+	"weapon": {
+		"name": "bg3-token",
+		"length": 0.5,
+		"reload": 0.3,
+		"alternate": true
+	}
+}
