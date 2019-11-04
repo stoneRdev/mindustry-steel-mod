@@ -4,7 +4,7 @@
 	"description": "Melts down iron",
 	"liquidCapacity": 100,
 	"outputLiquid": {"liquid": "molten-iron", "amount": 7.0},
-	"size": 3,
+	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
 	"craftTime": 5,
