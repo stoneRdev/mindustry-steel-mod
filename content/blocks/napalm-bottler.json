@@ -1,0 +1,33 @@
+{
+	"type": "GenericSmelter",
+	"name": "Napalm Bottler",
+	"description": "Bottles napalm",
+	"outputItem": {"item": "napalm-canister", "amount": 2},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{ "item": "canister", "amount": 2 }
+			]
+		},
+		"liquid": {
+			"liquid": "napalm",
+			"amount":2.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 75 },
+		{ "item": "copper", "amount": 75 },
+		{ "item": "steel", "amount": 50 },
+		{ "item": "silicon", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "steel-forge",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

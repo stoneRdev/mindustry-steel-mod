@@ -3,20 +3,29 @@
 	"name": "Steel Turret",
 	"description": "Steel machine gun",
 	"health": 2000,
-	"size": 2,
-	"reload": 0.5,
-	"range": 250,
+	"size": 3,
+	"reload": 0.2,
+	"range": 50,
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0.5,
 	"rotatespeed": 80,
 	"ammo": {
+		"copper": {
+			"speed": 4.0,
+			"damage": 20,
+			"bulletWidth": 3,
+			"bulletHeight": 5,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		},
 		"iron": {
 			"speed": 8.0,
 			"damage": 50,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
 			"shootEffect": "shootBig",
-			"smokeEffect": "shootSmallSmoke",
+			"smokeEffect": "shootBigSmoke",
 			"ammoMultiplier": 5
 		},
 		"steel": {

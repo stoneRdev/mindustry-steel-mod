@@ -4,15 +4,16 @@
 	"type": "MechPad",
 	"mech": "mobile-artillery",
 	"size": 3,
+	"health": 4000,
 	"consumes": {
-		"power": 1.0
+		"power": 2.0
 	},
 	"category": "upgrade",
 	"research": "wraith-factory",
 	"requirements": [
-		{ "item": "iron", "amount": 100 },
-		{ "item": "steel", "amount": 250 },
-		{ "item": "silicon", "amount": 75 },
-		{ "item": "titanium", "amount": 75 }
+		{ "item": "iron", "amount": 75 },
+		{ "item": "steel", "amount": 100 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "titanium", "amount": 50 }
 	]
 }

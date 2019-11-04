@@ -4,7 +4,7 @@
 	"description": "Combines molten iron and carbon to produce steel",
 	"liquidCapacity": 100,
 	"outputItem": {"item": "steel", "amount": 2},
-	"size": 2,
+	"size": 3,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
@@ -14,8 +14,7 @@
 		"power": 1.0,
 		"items": {
 			"items": [
-				{ "item": "coal", "amount": 2, "optional": true },
-				{ "item": "graphite", "amount": 1, "optional": true },
+				{ "item": "coal", "amount": 2 }
 			]
 		},
 		"liquid": {
@@ -24,8 +23,8 @@
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 100 },
-		{ "item": "copper", "amount": 100 }
+		{ "item": "lead", "amount": 75 },
+		{ "item": "copper", "amount": 75 }
 	],
 	"category": "crafting",
 	"research": "iron-crucible",

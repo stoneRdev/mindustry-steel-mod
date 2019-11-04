@@ -1,0 +1,34 @@
+{
+	"type": "GenericSmelter",
+	"name": "Oil Bottler",
+	"description": "Fills canisters with cryofluid",
+	"outputItem": {"item": "oil-canister", "amount": 4},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "canister", "amount": 4 }
+			]
+		},
+		"liquid": {
+			"liquid": "oil",
+			"amount": 4.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 75 },
+		{ "item": "copper", "amount": 75 },
+		{ "item": "steel", "amount": 50 },
+		{ "item": "silicon", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "canister-factory",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

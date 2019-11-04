@@ -1,10 +1,11 @@
 {
 	"type": "Conveyor",
-	"name": "Steel conveyor",
-	"description": "Steel conveyor belt that uses compressed air to further speed item transfer",
-	"health": 120,
+	"name": "Armored Steel conveyor",
+	"description": "An armored version of the steel conveyor",
+	"health": 280,
 	"requirements": [
 		{"item": "steel", "amount": 4},
+		{"item": "thorium", "amount": 4},
 		{"item": "copper", "amount": 2},
 		{"item": "lead", "amount": 1},
 		{"item": "compressed-air", "amount": 1}

@@ -3,14 +3,14 @@
 	"description": "Produces gunship units",
 	"type": "UnitFactory",
 	"unitType": "gunship",
-	"size": 2,
+	"size": 3,
 	"produceTime": 400,
 	"consumes": {
 		"power": 1.0,
 		"items": {
 			"items": [
 				{"item": "silicon", "amount": 50},
-				{"item": "steel", "amount": 250},
+				{"item": "steel", "amount": 100},
 				{"item": "titanium", "amount": 75}
 			]
 		}
@@ -18,9 +18,9 @@
 	"category": "units",
 	"research": "wraith-factory",
 	"requirements": [
-		{ "item": "iron", "amount": 100 },
-		{ "item": "steel", "amount": 250 },
-		{ "item": "silicon", "amount": 75 },
-		{ "item": "titanium", "amount": 75 }
+		{ "item": "iron", "amount": 75 },
+		{ "item": "steel", "amount": 100 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "titanium", "amount": 50 }
 	]
 }

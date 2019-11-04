@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"name": "Bomb Factory",
+	"description": "Packs explosives into canisters",
+	"outputItem": {"item": "canister-bomb", "amount": 2},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "blast-compound", "amount": 4 },
+				{ "item": "canister", "amount": 2 },
+				{ "item": "graphite", "amount": 2 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 75 },
+		{ "item": "copper", "amount": 75 },
+		{ "item": "steel", "amount": 50 },
+		{ "item": "silicon", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "steel-forge",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

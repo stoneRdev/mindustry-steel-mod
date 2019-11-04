@@ -2,14 +2,14 @@
 	"name": "Steel Vault",
 	"description": "Very strong and effecient storage container",
 	"type": "Vault",
-	"itemCapacity": 50000,
+	"itemCapacity": 10000,
 	"hasItems": true,
-	"health": 15000,
+	"health": 1000,
 	"size": 5,
 	"requirements": [
-		{ "item": "steel", "amount": 500 },
+		{ "item": "steel", "amount": 300 },
 		{ "item": "titanium", "amount": 250 },
-		{ "item": "silicon", "amount": 100 }
+		{ "item": "thorium", "amount": 125 }
 	],
 	"category": "effect",
 	"research": "vault"

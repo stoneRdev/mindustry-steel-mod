@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Canister Bomb",
+	"description": "A canister bomb. Pretty destructive",
+	"cost": 2.5,
+	"color": "ff9999"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Napalm Canister",
+	"description": "A canister of napalm. Illegal in most countries",
+	"cost": 2.5,
+	"color": "ff9999"
+}

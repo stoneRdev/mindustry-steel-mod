@@ -2,10 +2,10 @@
 	"name": "Steel Wall",
 	"description": "A wall made of steel. Pretty bulky",
 	"type": "Wall",
-	"health": 50000,
+	"health": 7500,
 	"size": 3,
 	"requirements": [
-		{ "item": "steel", "amount": 250 }
+		{ "item": "steel", "amount": 54 }
 	],
 	"category": "defense",
 	"research": "copper-wall"

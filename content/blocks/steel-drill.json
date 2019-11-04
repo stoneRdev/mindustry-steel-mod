@@ -2,7 +2,7 @@
 	"name": "Steel Drill",
 	"description": "A steel drill that uses air canister explosions to blast ore faster",
 	"type": "Drill",
-	"size": 3,
+	"size": 2,
 	"tier": 2,
 	"drillTime": 100,
 	"consumes": {
