@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Steel Separator",
+	"description": "Melts scrap and extracts steel. Both steel and waste slag are produced",
+	"liquidCapacity": 100,
+	"outputItem": {"item": "steel", "amount": 1},
+	"outputLiquid": {"liquid": "slag", "amount": 2.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{ "item": "scrap", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 75 },
+		{ "item": "copper", "amount": 75 }
+	],
+	"category": "crafting",
+	"research": "iron-crucible",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
