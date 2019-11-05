@@ -6,7 +6,7 @@
 	"flying": true,
 	"health": 500,
 	"engineOffset": 5.5,
-	"range": 100,
+	"range": 2000,
 	"weapon": {
 		"name": "bg3-token",
 		"length": 0.5,
